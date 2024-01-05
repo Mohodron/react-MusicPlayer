@@ -1,0 +1,271 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+.desktop {
+  background-color: rgba(255, 255, 255, 1);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.desktop .music-player-wrapper {
+  background: linear-gradient(180deg,
+      rgb(48, 1, 40) 0%,
+      rgba(36, 17, 35, 0.65) 55.15%,
+      rgba(22, 2, 34, 0.973) 97.32%);
+  background-color: rgba(255, 255, 255, 1);
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.desktop .music-player {
+  scale: 0.9;
+  background: linear-gradient(180deg, rgb(33.46, 13.85, 48.87) 0%, rgb(14, 0, 19) 100%);
+  border: 1px solid;
+  border-color: #000000;
+  border-radius: 22px;
+  box-shadow: 0px 0px 37.1px 20px #00000036;
+  height: 623px;
+  position: relative;
+  min-width: 1075px;
+}
+
+.desktop .overlap {
+  height: 325px;
+  left: -11.5px;
+  position: absolute;
+  top: -8px;
+  width: 1075px;
+}
+
+.desktop .rectangle {
+  height: 155px;
+  left: 11px;
+  object-fit: cover;
+  position: absolute;
+  top: 7px;
+  width: 1077px;
+  border-top-right-radius: 22px;
+  border-top-left-radius: 22px;
+}
+
+.desktop .div {
+  background-color: #d9d9d978;
+  border: 1px solid;
+  border-color: #000000;
+  border-radius: 22px 22px 0px 0px;
+  filter: blur(27.3px);
+  height: 141px;
+  left: 12px;
+  position: absolute;
+  top: 8px;
+  width: 1075px;
+}
+
+.desktop .ellipse {
+  height: 150px;
+  left: 467px;
+  object-fit: cover;
+  position: absolute;
+  top: 144px;
+  width: 150px;
+  border-radius: 50%;
+  border: 5px solid white;
+}
+
+.desktop .overlap-group {
+  height: 151px;
+  left: 162px;
+  position: absolute;
+  top: 342px;
+  width: 839px;
+}
+
+.desktop .group {
+  height: 131px;
+  left: 0;
+  position: absolute;
+  bottom: 75px;
+  width: 756px;
+}
+
+.desktop .text-wrapper {
+  color: #ffffff;
+  font-family: 'Just Another Hand', cursive;
+  font-size: 64px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  white-space: nowrap;
+  width: 750px;
+}
+
+
+.desktop .text-wrapper-2 {
+  color: #ffffff;
+  font-family: 'Just Another Hand', cursive;
+  font-size: 28px;
+  font-weight: 400;
+  left: 364px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 70px;
+  white-space: nowrap;
+  width: 22px;
+}
+
+.desktop .text-wrapper-3 {
+  color: #ffffff;
+  font-family: 'Just Another Hand', cursive;
+  font-size: 24px;
+  font-weight: 400;
+  left: 97px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 100px;
+  width: 557px;
+}
+
+.desktop .rectangle-wrapper {
+  background-color: #d9d9d9;
+  border-radius: 5px;
+  height: 6px;
+  left: 732px;
+  position: absolute;
+  top: 165px;
+  width: 107px;
+  cursor: pointer;
+  transform: scale(1);
+  transition: transform 0.3s ease;
+}
+
+.desktop .rectangle-wrapper:hover {
+  transform: scale(1.03);
+}
+
+.desktop .rectangle-2 {
+  background-color: #453f3f;
+  border-radius: 5px;
+  height: 6px;
+  width: 68px;
+}
+
+.desktop .group-2 {
+  height: 51px;
+  left: 39px;
+  position: absolute;
+  top: 551px;
+  width: 998px;
+}
+
+.desktop .div-wrapper {
+  background-color: #d9d9d9;
+  border-radius: 5px;
+  height: 7px;
+  left: 31px;
+  position: absolute;
+  top: 0;
+  width: 930px;
+  cursor: pointer;
+  transform: scale(1);
+  transition: transform 0.5s ease;
+}
+
+.desktop .div-wrapper:hover {
+  transform: scale(1.01);
+}
+
+
+.desktop .rectangle-3 {
+  background-color: #453f3f;
+  border-radius: 5px;
+  height: 7px;
+  width: 150px;
+}
+
+.desktop .text-wrapper-4 {
+  color: #ffffff;
+  font-family: 'Nanum Brush Script', cursive;
+  font-size: 20px;
+  font-weight: 400;
+  left: 928px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 23px;
+  width: 66px;
+}
+
+.desktop .text-wrapper-5 {
+  color: #ffffff;
+  font-family: 'Nanum Brush Script', cursive;
+  font-size: 20px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 23px;
+  white-space: nowrap;
+  width: 63px;
+}
+
+.middle-section  {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 200px;
+  position: absolute;
+  top: 160px;
+  left: 275px;
+}
+
+.sound-icon {
+  position:absolute;
+  right: 115px;
+  top:158px;
+}
+
+.cursor {
+  cursor: pointer;
+}
+.tooltip-text {
+  position:absolute;
+  border: 1px solid white;
+  background-color: #453f3f;
+  color: white;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+  padding: 2px;
+  font-family: 'Nanum Brush Script', cursive;
+}
+
+.animation:hover .tooltip-text {
+  transform: translatey(-35px);
+  visibility: visible;
+  opacity: 1;
+}
+.animation {
+  transform: scale(1);
+  transition: transform 0.2s ease;
+}
+.animation:hover {
+  transform: scale(1.2);
+}
